@@ -1,0 +1,22 @@
+a:link {
+    color: #ECEFF4;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+div {
+  align-items: center;
+}
