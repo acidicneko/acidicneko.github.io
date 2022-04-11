@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 @font-face {
-  font-family: 'Iosevka';
-  src: url('https://raw.githubusercontent.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/Iosevka/Regular/complete/Iosevka%20Nerd%20Font%20Complete.ttf') format('truetype');
+  font-family: 'JetBrains Mono Regular';
+  src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -45,5 +46,5 @@ div {
 body {
   background-color: #2E3440; 
   color: #D8DEE9; 
-  font-family: Iosevka, 'Noto Sans JP';
+  font-family: 'JetBrains Mono Regular', 'Noto Sans JP';
 }
