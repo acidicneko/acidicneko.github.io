@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Space+Grotesk:wght@300..700&display=swap');
+
+
+.header {
+    /*background-color: #f4f4f4;*/
+    color: #333;
+    font-family: "Cedarville Cursive", sans-serif;
+    font-size: xx-large;
+    margin-top: 15px;
+    width:100vw;
+    height:100vh;
+    text-align: center;
+}
+
+.name-container{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background: #2e3440;
+    color: #d8dee9;
+    background-image: url("../assets/street_blues.png");
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to the next line if necessary */
+    gap: 10px; /* Space between cards */
+    justify-content: center; /* Center the cards */
+}
+
+.card {
+    background: #4c566a;
+    color: #e5e9f0;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px #3b4252;
+    display: inline-block;
+    width: 200px; /* Set a fixed width */
+    height: 250px; /* Set a fixed height to make it square */
+    box-sizing: border-box; /* Ensure padding and border are included in the width and height */
+    overflow: hidden; /* Hide overflow content */
+    text-overflow: ellipsis; /* Add ellipsis (...) for overflow text */
+    word-wrap: break-word; /* Break long words */
+}
+
+.project-card {
+    background: #4c566a;
+    color: #e5e9f0;
+    padding: 10px;
+    margin: 70px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px #3b4252;
+    box-sizing: border-box; /* Ensure padding and border are included in the width and height */
+    overflow: hidden; /* Hide overflow content */
+    text-overflow: ellipsis; /* Add ellipsis (...) for overflow text */
+    word-wrap: break-word; /* Break long words */
+}
+
+.project-button {
+    background: #bf616a;
+    color: #eceff4;
+    border-radius: 5px;
+    border: none;
+    font-size: medium;
+    font-family: 'Space Grotesk', sans-serif;
+    width: 70px;
+    height: 40px;
+    float: right;
+}
+
+.project-button:hover {
+    width: 70px;
+    height: 40px;
+    background: #d08770;
+}
+
+.heading {
+    font-size: 4em;
+    font-family: 'Cedarville Cursive', cursive;
+    text-align: center;
+    margin: 10px;
+    color: #4c566a;;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.about-header {
+    font-family: "Space Grotesk", sans-serif;
+}
+
+#quote-container {
+    font-size:medium;
+    color: #e5e9f0;
+    font-family: "Space Grotesk", sans-serif;
+    position: absolute;
+    bottom: 0; /* Align to the bottom */
+    right: 0; /* Align to the right */
+    margin: 10px; /* Add some margin if needed */
+    width: 550px;
+    height: 200px;
+}
