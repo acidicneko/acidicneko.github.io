@@ -3,7 +3,6 @@
 
 
 .header {
-    /*background-color: #f4f4f4;*/
     color: #333;
     font-family: "Cedarville Cursive", sans-serif;
     font-size: xx-large;
@@ -25,8 +24,18 @@ body {
     margin: 0;
     background: #2e3440;
     color: #d8dee9;
-    background-image: url("../assets/street_blues.png");
 }
+
+.bg-image {
+    background-image: url("../assets/street_blues.png");
+    z-index: -1;
+    position: fixed;
+    width:100vw;
+    height:100vh;
+    display: flex;
+    margin-top: -50px;
+}
+
 
 .card-container {
     display: flex;
@@ -87,7 +96,7 @@ body {
     font-family: 'Cedarville Cursive', cursive;
     text-align: center;
     margin: 10px;
-    color: #4c566a;;
+    color: #d8dee9;
 }
 
 .center {
