@@ -12,6 +12,10 @@
     text-align: center;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .name-container{
     display: flex;
     align-items: center;
@@ -146,4 +150,27 @@ body {
     right: 0;
     position: absolute;
     margin-right: 10px;
+}
+
+.lang {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: large;
+    color: #e5e9f0;
+    float: right;
+    position: relative;
+    margin-top:4% ;
+}
+
+.footer {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: medium;
+    color: #e5e9f0;
+    background-color: #2e3440;
+    margin-bottom: -5%;
+}
+
+.top-button {
+    float:right;
+    position: relative;
+    margin-right: 1%;
 }
